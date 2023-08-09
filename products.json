@@ -1,0 +1,40 @@
+{
+    "items" :[
+        {
+            "id" : 1,
+            "title": "Lacoste",
+            "price": 250,
+            "image": "./images/lacoste.webp"
+        },
+        {
+            "id" : 2,
+            "title": "converse",
+            "price": 59.99,
+            "image": "./images/converse.webp"
+        },
+        {
+            "id" : 3,
+            "title": "adidas",
+            "price": 99.99,
+            "image": "./images/adidas.webp"
+        },
+        {
+            "id" : 4,
+            "title": "puma",
+            "price": 89.99,
+            "image": "./images/puma.webp"
+        },
+        {
+            "id" :5,
+            "title": "jd",
+            "price": 150.99,
+            "image": "./images/jd.webp"
+        },
+        {
+            "id" : 6,
+            "title": "sketchers",
+            "price": 100.99,
+            "image": "./images/sk.jpg"
+        }
+    ]
+}

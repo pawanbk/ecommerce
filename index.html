@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+    <!--javscript file-->
+    <script src="Cart.js" type="module"></script>
+    <script src="main.js" type="module"></script> 
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h2 class="navbar-brand">E-<span class="text-white">commerce</span></h2>
+        <div class="icon-cart">
+            <i class="fa fa-shopping-cart"></i>
+            <div class="badge cart-items-number">0</div>
+        </div>
+    </nav>
+    <!--end-navbar-->
+    <!--hero-section-->
+    <header class="hero">
+        <div class="banner">
+            <h2 class="banner-title">shoe collection </h2>
+            <a class="banner-btn" href="#products">shop now</a>
+        </div>
+    </header>
+    <!--end-hero-section-->
+   <!--product-section-->
+   <section id="products" class="products">
+       <div class="section-title">
+           <h2>our products</h2>
+       </div>
+       <div class="product-content">   
+       </div>
+   </section>
+   <!--end-product-section-->
+   <!-- cart -->
+   <div class="cart-overlay">
+       <div class="cart">
+            <span class="cart-close">&times;</span>
+           <h2 class="cart-title">your cart</h2>
+           <div class="cart-content">
+               
+           </div>
+           <div class="cart-footer">
+                <span class="cart-total"></span>
+                <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+
+       </div>
+   </div>
+   <!-- end-cart -->
+   <!--footer section-->
+   <footer class="footer">
+       E-commerce
+       <span>&copy; Copyright 2023</span>
+       Designed and developed by Pawan B K.
+   </footer>
+</body>
+</html>
